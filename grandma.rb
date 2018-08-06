@@ -14,7 +14,7 @@
 def speak_to_grandma(whatever)
   puts "HUH?! SPEAK UP, SONNY!"
   
-  if whatever.upp
+  if whatever == whatever.upcase
     puts "NO, NOT SINCE 1938!"
   end 
   
